@@ -1,6 +1,3 @@
--- https://chatgpt.com/c/f6e28555-4a52-4337-89cf-5a888d8daa9a
-
-
 -- 1. Find the total number of orders placed by each customer.
 select c.customer_id, c.first_name, c.last_name, count(o.customer_id) as total_orders
 from customers as c 
